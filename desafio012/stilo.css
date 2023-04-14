@@ -6,11 +6,12 @@
 }
 @import url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Passion+One&display=swap');
 
 :root{
     --font1: Verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Damion', cursive;
-    --font3:'Passion One', cursive;
+    --font3: 'Passion One', cursive;
 }
 
 
