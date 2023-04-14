@@ -92,14 +92,15 @@ section.imagem{
 
 section.imagem#img01{
     background-image: url(pacote-d012/imagens/background001.jpg);
-    background-position: right center;    
+    background-position: center center;  
+    background-repeat: no-repeat;  
 }
 
 
 section.imagem#img02{
     background-image: url(pacote-d012/imagens/background002.jpg);
     background-position: center center;  
-       
+    background-repeat: no-repeat;    
     background-attachment: fixed;
 }
 
