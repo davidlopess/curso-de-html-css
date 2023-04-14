@@ -68,7 +68,8 @@ section{
     line-height: 2em;
     font-family: var(--font2);
     font-weight: 400;
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
@@ -107,6 +108,7 @@ section.imagem p{
     width: 300px;
     padding: 5px;
     text-shadow: 2px 2px 8px black;
+    
 }
 
 
