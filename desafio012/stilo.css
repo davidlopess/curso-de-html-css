@@ -37,7 +37,7 @@ header h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font3);
-    font-size: 3em;
+    font-size: 3.5em;
     
 }
 
@@ -114,6 +114,10 @@ section.imagem p{
     
 }
 
+section p{
+    font-size: 22px;
+    font-weight: bolder;
+}
 
 
 
