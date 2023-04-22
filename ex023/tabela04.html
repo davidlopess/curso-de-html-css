@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            font-family: arial;
+            width: 400px;
+           
+            border-collapse: collapse;
+        }
+        th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            color: black;
+            margin-bottom: 5px;
+            font-weight: 900;
+
+        }
+        .cnome{
+            background: blue;
+        
+        }
+        .csexo{
+            background: red;
+        }
+        .cprof{
+            background-color: chartreuse;
+        }
+        .cidade{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana paula</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Ana paula</td>
+            <td>M</td>
+            <td>22</td>
+            <td>medica</td>
+        </tr>
+        <tr class="destaque">
+            <td>Ana paula</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Ana paula</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Ana paula</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
