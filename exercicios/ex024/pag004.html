@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body{
+            background-color: wheat;
+            font-family: sans-serif;
+        }
+        #nome{
+            color: rgb(21, 36, 25);
+            font-weight: 900;
+            background-color: transparent;
+            border: 1px solid black ;
+            text-decoration: none;
+            padding: 2px;
+            text-transform: lowercase;
+        }
+        #nome:hover{
+            border: none;
+        }
+        input{
+            padding: 8px;
+            margin: 5px;
+            background-color: rgb(0, 234, 255);
+            border-radius: 5px;
+            border: 1px solid black;
+            font-weight: 900;
+            text-transform: uppercase;
+            
+        }
+        input:hover{
+            background-color: rgb(255, 0, 0);
+            border: none;
+            box-shadow: 2px 2px 5px  black;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pagína de cadastro</h1>
+    <form action="cadrasto.php" method="get">
+        <p>
+            nome:
+            <input type="text" name="nome" id="nome">
+            enviar:
+            <input type="submit" value="Cadrastrar">
+
+        </p>
+    </form>
+</body>
+</html>
