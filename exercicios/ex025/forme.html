@@ -4,7 +4,19 @@
         *{
             font-family: arial;
             font-weight: 600;
+           outline: none;
         }
+        input{
+            padding: 10px;
+        }
+        .butonn{
+            margin: 10px;
+            font-weight: bolder;
+            color: aquamarine;
+           
+        }
+        
+
     </style>
 <head>
     <meta charset="UTF-8">
@@ -14,15 +26,15 @@
 </head>
 <body>
     <h1>Primeiro formulario</h1>
-    <form action="script.php">
-        <p><label for="inome">nome:</label>
+    <form action="script.php" method="post">
+        <p><label for="inome">Nome:</label>
 
-             <input type="text" name="nome" id="inome"></p>
+             <input type="text" name="nome" id="inome" placeholder="digite aqui"></p>
         
-            <p>sobrenome:
-                <input type="text" name="sobrenome" id="isobrenome"></p>
+            <p><label for="isobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="isobrenome" placeholder="digite aqui"></p>
        
-        <input type="submit" value="Enviar">
+        <div class="butonn"><input type="submit" value="Enviar" ></div>
     </form>
 </body>
 </html>
